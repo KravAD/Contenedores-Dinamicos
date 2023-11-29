@@ -7,6 +7,12 @@ int main() {
     cout << "la suma es: " << valores.sum() << endl;
     cout << "la media es: " << valores.sum() / valores.size() << endl;
 
+    valores +=5.0;
+    cout << "Valores + 5.0" << endl;
+    for(double valor : valores) {
+        cout << valor << " ";
+    }
+    cout << endl;
 
     return 0;
 }
