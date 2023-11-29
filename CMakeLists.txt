@@ -8,6 +8,6 @@ find_package(Boost REQUIRED COMPONENTS system filesystem)
 
 include_directories(${Boost_INCLUDE_DIRS})
 
-add_executable(Ejercicio6.cpp Ejercicio6.cpp)
+add_executable("Ejercicio 6/Ejercicio6.cpp" "Ejercicio 6/Ejercicio6.cpp")
 
-target_link_libraries(Ejercicio6.cpp ${Boost_LIBRARIES})
+target_link_libraries("Ejercicio 6/Ejercicio6.cpp" ${Boost_LIBRARIES})
